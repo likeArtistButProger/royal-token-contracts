@@ -1,0 +1,30 @@
+[
+    {
+        "mintAmount": 5000,
+        "startTime": 0,
+        "duration": 86400,
+        "price": 0.036,
+        "minBuyPrice": 2
+    },
+    {
+        "mintAmount": 10000,
+        "startTime": 0,
+        "duration": 604800,
+        "price": 0.047,
+        "minBuyPrice": 1.5
+    },
+    {
+        "mintAmount": 15000,
+        "startTime": 0,
+        "duration": 604800,
+        "price": 0.058,
+        "minBuyPrice": 1
+    },
+    {
+        "mintAmount": 20000,
+        "startTime": 0,
+        "duration": 1209600,
+        "price": 0.065,
+        "minBuyPrice": 0.5
+    }
+]
