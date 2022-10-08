@@ -9,6 +9,10 @@ const config: HardhatUserConfig = {
     apiKey: process.env.ETHERSCAN_API
   },
   networks: {
+    mainnet: {
+      url: process.env.MAINNET_URL,
+      accounts: [process.env.PRIVATE_KEY ?? ""]
+    },
     goerli: {
       url: process.env.GOERLI_URL,
       accounts: [process.env.PRIVATE_KEY ?? ""]
